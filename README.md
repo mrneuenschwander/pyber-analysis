@@ -19,7 +19,7 @@ and the bubble scatter chart showing all of that combined data visually:
 
 In both of these we can see the same relationships in the service areas, but one is better for a planning presentation than the other. The combined data chart is very good at showing the direct, raw numbers, but isn't great at showing that value's impact on the entire company. Going off of just the DataFrame, one could infer that rural drivers are paid out disproportionately compared to the other types, and that their data should have a bigger impact than it does on the set as a whole. On the other hand, the bubble graph shows us that the Urban area has the most drivers and incoming money by far (regardless of it's much lower per-driver average), entirely dwarfing Rural's high per-driver and per-ride values. 
 
-This is a perfect example of why having more than one way to present the data is critical: being able to show the base numbers and then something a little more visually digestible with those numbers in mind makes for a far easier time grasping of the data, and allows for faster and better informed business and strategy decisions on the part of the board.
+This is a perfect example of why having more than one way to present the data is critical: being able to show the base numbers and then something a little more visually digestible with those numbers in mind makes for a far easier time grasping the data, and allows for faster and better informed business and strategy decisions on the part of the board.
 
 ## Analysis of City Types
 
@@ -29,14 +29,15 @@ Considering again the DataFrame above, we can break the data down as follows:
 - Urban Areas provide the backbone of Pyber's revenue stream.
 - Suburban operations are underpinned by a solid contribution to the revenue stream, at 26.3% ($19,356.33). The driver count is modest, at roughly 20% of Urban counts.
 - Suburban drivers's per-ride fares are double Urban's, with a much better ride:driver ratio. This is likely more attractive for these drivers that fall into the Suburban operating areas.
-- Rural operating area fares are far higher than Suburban and Urban fares, which likely has to do with operation range and potential inavailability of drivers.
-- Rural areas technically have the best ride:driver ratio, but the fact that per-driver rates are more than triple Urban's and average fares are close to Suburban's may mean a re-evaluation of the service area boundaries, as it only brings 6.8% of the total revenue in and would potentially be better served with a smaller focus, which could allow faster service times and higher overall revenue long-term.
+- Rural operating area fares are far higher than Suburban and Urban fares, which likely has to do with their actual operation range and potential inavailability of drivers.
+- Rural areas technically have the best ride:driver ratio, but the fact that per-driver rates are more than triple Urban's and average per-ride rates are close to Suburban's may mean a re-evaluation of the service area boundaries, as it only brings 6.8% of total revenue in and would potentially be better served with smaller, more focused service areas, which would allow for faster average service times and higher overall revenue long-term.
+
 ## Recommendations
 
 Based on the analysis, attached documents, and data above, I present a few recommendations:
 
-- Suburban areas could be targeted with a dedicated temporary fare-reduction camapign to increase interest in Pyber, generating future contracts; the average ride fare is closer to Rural rates than to Urban and this may be a contributing factor in the section's future growth. This becomes especially potent if coupled with the second recommendation:
+- Suburban areas could be targeted with a dedicated temporary fare-reduction camapign to increase general interest and/or awareness in Pyber, thus securing future contracts; the average ride fare is already closer to Rural rates than to Urban and this may be a contributing factor in the section's future growth. This becomes especially potent if coupled with the second recommendation:
 
-- Rural areas may need to be restructured to accomodate a wider sample of Suburban drivers, if not rolled into Suburban's category entirely. This not only increases the ride:driver ratio for that category, but paired with the similar ride fares, it would mean greater accessibilty to drivers for riders, and riders for drivers alike, with little increase in per-ride costs and a minor reduction in per-driver average numbers for annexed Rural drivers.
+- Rural areas may need to be restructured to accomodate a wider sample of Suburban drivers, if not rolled into Suburban's category entirely. This not only boosts the ride:driver ratio for that category (meaning better service across the board), but paired with the similar ride fares, it would mean greater accessibilty for Rural riders at lower cost, with little increase in per-ride costs to existing Suburban customers and a minor reduction in per-driver average numbers for annexed Rural drivers.
 
-- Similarly, Urban ares may need a minor restructure to designate more drivers as Suburban, bringing up the overall per-driver Urban fares and normalizing average per-ride fares across the company, which in turn provides greater long-term stability and less volatile fares per area, increasing public interest in Pyber as an affordable and easily accessible service.
+- Similarly, Urban ares may need a minor restructure to designate more drivers as Suburban, especially if the Rural section is restructured, bringing up the overall per-driver Urban fares and normalizing average per-ride fares across the Urban and Suburban sections, which in turn provides greater long-term stability and less volatile fares per area, increasing public interest in Pyber as an affordable and easily accessible service no matter where they may be.
